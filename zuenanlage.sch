@@ -15,27 +15,209 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4850 1600 1400 3650
+S 4900 1600 1400 3650
 U 5D1E53B8
 F0 "uc" 50
 F1 "uc.sch" 50
+F2 "CH_1" O L 4900 2050 50 
+F3 "CH_2" O L 4900 2150 50 
+F4 "CH_3" O L 4900 2250 50 
+F5 "CH_4" O L 4900 2350 50 
+F6 "CH_5" O L 4900 2450 50 
+F7 "CH_6" O L 4900 2550 50 
+F8 "CH_7" O L 4900 2650 50 
+F9 "CH_8" O L 4900 2750 50 
+F10 "CH_9" O L 4900 2850 50 
+F11 "CH_10" O L 4900 2950 50 
+F12 "CH_11" O L 4900 3050 50 
+F13 "CH_12" O L 4900 3150 50 
+F14 "CH_13" O L 4900 3250 50 
+F15 "CH_14" O L 4900 3350 50 
+F16 "CH_15" O L 4900 3450 50 
+F17 "Ign_sup_en-1" O R 6300 3750 50 
+F18 "Ign_sup_en-2" O R 6300 3850 50 
+F19 "PPS_in" I L 4900 3700 50 
+F20 "RS485_B" B L 4900 3950 50 
+F21 "RS485_A" B L 4900 3850 50 
+F22 "SDA" I L 4900 4850 50 
+F23 "SCL" I L 4900 4700 50 
+F24 "ADC_Ready" O L 4900 5000 50 
 $EndSheet
 $Sheet
-S 8600 2900 1350 1150
+S 8650 3550 1350 1150
 U 5D2135F9
 F0 "supply" 50
 F1 "supply.sch" 50
+F2 "enable_DCDC-1" I L 8650 3750 50 
+F3 "enable_DCDC-2" I L 8650 3850 50 
 $EndSheet
 $Sheet
-S 1800 2450 950  2650
+S 1250 1800 950  2650
 U 5D36F340
 F0 "connectors" 50
 F1 "connectors.sch" 50
+F2 "Ch_5" I R 2200 2350 50 
+F3 "Ch_6" I R 2200 2450 50 
+F4 "Ch_7" I R 2200 2550 50 
+F5 "Ch_8" I R 2200 2650 50 
+F6 "Ch_1" I R 2200 1950 50 
+F7 "Ch_2" I R 2200 2050 50 
+F8 "Ch_3" I R 2200 2150 50 
+F9 "Ch_4" I R 2200 2250 50 
+F10 "Ch_9" I R 2200 2750 50 
+F11 "Ch_10" I R 2200 2850 50 
+F12 "Ch_11" I R 2200 2950 50 
+F13 "Ch_12" I R 2200 3050 50 
+F14 "PPS" O R 2200 3700 50 
+F15 "Ch_13" I R 2200 3150 50 
+F16 "Ch_14" I R 2200 3250 50 
+F17 "Ch_15" I R 2200 3350 50 
+F18 "RS485_A" I R 2200 3850 50 
+F19 "RS485_B" I R 2200 3950 50 
 $EndSheet
 $Sheet
-S 3350 5700 1100 1100
+S 2700 4450 1100 1100
 U 5D5C8F4D
 F0 "resistance measurement" 50
 F1 "r_meas.sch" 50
+F2 "SCL" B R 3800 4700 50 
+F3 "SDA" B R 3800 4850 50 
+F4 "ADC_rdy" O R 3800 5000 50 
 $EndSheet
+Wire Wire Line
+	2200 3700 4900 3700
+Wire Wire Line
+	2200 3850 4900 3850
+Wire Wire Line
+	2200 3950 4900 3950
+Wire Wire Line
+	2200 3350 2500 3350
+Text Label 2500 3350 2    50   ~ 0
+CH_15
+Wire Wire Line
+	2200 3250 2500 3250
+Text Label 2500 3250 2    50   ~ 0
+CH_14
+Wire Wire Line
+	2200 3150 2500 3150
+Text Label 2500 3150 2    50   ~ 0
+CH_13
+Wire Wire Line
+	2200 3050 2500 3050
+Text Label 2500 3050 2    50   ~ 0
+CH_12
+Wire Wire Line
+	2200 2950 2500 2950
+Text Label 2500 2950 2    50   ~ 0
+CH_11
+Wire Wire Line
+	2200 2850 2500 2850
+Text Label 2500 2850 2    50   ~ 0
+CH_10
+Wire Wire Line
+	2200 2750 2500 2750
+Text Label 2500 2750 2    50   ~ 0
+CH_9
+Wire Wire Line
+	2200 2650 2500 2650
+Text Label 2500 2650 2    50   ~ 0
+CH_8
+Wire Wire Line
+	2200 2550 2500 2550
+Text Label 2500 2550 2    50   ~ 0
+CH_7
+Wire Wire Line
+	2200 2450 2500 2450
+Text Label 2500 2450 2    50   ~ 0
+CH_6
+Wire Wire Line
+	2200 2350 2500 2350
+Text Label 2500 2350 2    50   ~ 0
+CH_5
+Wire Wire Line
+	2200 2250 2500 2250
+Text Label 2500 2250 2    50   ~ 0
+CH_4
+Wire Wire Line
+	2200 2150 2500 2150
+Text Label 2500 2150 2    50   ~ 0
+CH_3
+Wire Wire Line
+	2200 2050 2500 2050
+Text Label 2500 2050 2    50   ~ 0
+CH_2
+Wire Wire Line
+	2200 1950 2500 1950
+Text Label 2500 1950 2    50   ~ 0
+CH_1
+Wire Wire Line
+	4900 3450 4600 3450
+Text Label 4600 3450 0    50   ~ 0
+CH_15
+Wire Wire Line
+	4900 3350 4600 3350
+Text Label 4600 3350 0    50   ~ 0
+CH_14
+Wire Wire Line
+	4900 3250 4600 3250
+Text Label 4600 3250 0    50   ~ 0
+CH_13
+Wire Wire Line
+	4900 3150 4600 3150
+Text Label 4600 3150 0    50   ~ 0
+CH_12
+Wire Wire Line
+	4900 3050 4600 3050
+Text Label 4600 3050 0    50   ~ 0
+CH_11
+Wire Wire Line
+	4900 2950 4600 2950
+Text Label 4600 2950 0    50   ~ 0
+CH_10
+Wire Wire Line
+	4900 2850 4600 2850
+Text Label 4600 2850 0    50   ~ 0
+CH_9
+Wire Wire Line
+	4900 2750 4600 2750
+Text Label 4600 2750 0    50   ~ 0
+CH_8
+Wire Wire Line
+	4900 2650 4600 2650
+Text Label 4600 2650 0    50   ~ 0
+CH_7
+Wire Wire Line
+	4900 2550 4600 2550
+Text Label 4600 2550 0    50   ~ 0
+CH_6
+Wire Wire Line
+	4900 2450 4600 2450
+Text Label 4600 2450 0    50   ~ 0
+CH_5
+Wire Wire Line
+	4900 2350 4600 2350
+Text Label 4600 2350 0    50   ~ 0
+CH_4
+Wire Wire Line
+	4900 2250 4600 2250
+Text Label 4600 2250 0    50   ~ 0
+CH_3
+Wire Wire Line
+	4900 2150 4600 2150
+Text Label 4600 2150 0    50   ~ 0
+CH_2
+Wire Wire Line
+	4900 2050 4600 2050
+Text Label 4600 2050 0    50   ~ 0
+CH_1
+Wire Wire Line
+	6300 3750 8650 3750
+Wire Wire Line
+	6300 3850 8650 3850
+Wire Wire Line
+	3800 4700 4900 4700
+Wire Wire Line
+	3800 4850 4900 4850
+Wire Wire Line
+	3800 5000 4900 5000
 $EndSCHEMATC

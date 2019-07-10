@@ -647,7 +647,7 @@ Wire Wire Line
 NoConn ~ 3250 3350
 NoConn ~ 3250 3450
 Text HLabel 6050 3350 2    50   Output ~ 0
-Enable_r_meas
+ADC_Ready
 Text Label 1050 3650 0    50   ~ 0
 XTAL1
 Text Label 1050 3750 0    50   ~ 0
@@ -682,21 +682,8 @@ F 3 "~" H 5500 3550 50  0001 C CNN
 	1    5500 3550
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5D2B7F9E
-P 5800 3550
-F 0 "R?" H 5730 3504 50  0000 R CNN
-F 1 "10K" H 5730 3595 50  0000 R CNN
-F 2 "" V 5730 3550 50  0001 C CNN
-F 3 "~" H 5800 3550 50  0001 C CNN
-	1    5800 3550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4450 3150 5200 3150
-Wire Wire Line
-	4450 3350 5800 3350
 Wire Wire Line
 	5200 3400 5200 3150
 Connection ~ 5200 3150
@@ -709,11 +696,6 @@ Wire Wire Line
 Connection ~ 5500 3250
 Wire Wire Line
 	5500 3250 6050 3250
-Wire Wire Line
-	5800 3400 5800 3350
-Connection ~ 5800 3350
-Wire Wire Line
-	5800 3350 6050 3350
 $Comp
 L daisy:GND #PWR?
 U 1 1 5D2D4E28
@@ -736,19 +718,6 @@ F 3 "" H 5500 3750 60  0000 C CNN
 	1    5500 3750
 	1    0    0    -1  
 $EndComp
-$Comp
-L daisy:GND #PWR?
-U 1 1 5D2D4E8A
-P 5800 3750
-F 0 "#PWR?" H 5800 3750 30  0001 C CNN
-F 1 "GND" H 5800 3680 30  0001 C CNN
-F 2 "" H 5800 3750 60  0000 C CNN
-F 3 "" H 5800 3750 60  0000 C CNN
-	1    5800 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 3700 5800 3750
 Wire Wire Line
 	5500 3700 5500 3750
 Wire Wire Line
@@ -1364,4 +1333,10 @@ F 3 "" H 2500 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 2650 2500 2800
+Text HLabel 4950 6100 0    50   Input ~ 0
+SDA
+Text HLabel 4950 6250 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	4450 3350 6050 3350
 $EndSCHEMATC
