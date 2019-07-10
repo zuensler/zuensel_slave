@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -31,5 +31,11 @@ S 1800 2450 950  2650
 U 5D36F340
 F0 "connectors" 50
 F1 "connectors.sch" 50
+$EndSheet
+$Sheet
+S 3350 5700 1100 1100
+U 5D5C8F4D
+F0 "resistance measurement" 50
+F1 "r_meas.sch" 50
 $EndSheet
 $EndSCHEMATC
