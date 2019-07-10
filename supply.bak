@@ -1025,6 +1025,4 @@ Wire Wire Line
 Connection ~ 7400 3750
 Text Notes 9350 1500 0    50   ~ 0
 placeholder\n
-Text Notes 8900 3350 0    50   ~ 0
-placeholder\n
 $EndSCHEMATC
