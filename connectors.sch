@@ -1,0 +1,219 @@
+EESchema Schematic File Version 4
+LIBS:zuenanlage-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5D36F414
+P 7700 2750
+F 0 "J?" H 7780 2742 50  0000 L CNN
+F 1 "Conn_01x06" H 7780 2651 50  0000 L CNN
+F 2 "" H 7700 2750 50  0001 C CNN
+F 3 "~" H 7700 2750 50  0001 C CNN
+	1    7700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2550 7450 2550
+Wire Wire Line
+	7450 2550 7450 2450
+Wire Wire Line
+	7500 3050 7450 3050
+$Comp
+L daisy:GND #PWR?
+U 1 1 5D36F4D3
+P 7450 3200
+F 0 "#PWR?" H 7450 3200 30  0001 C CNN
+F 1 "GND" H 7450 3130 30  0001 C CNN
+F 2 "" H 7450 3200 60  0000 C CNN
+F 3 "" H 7450 3200 60  0000 C CNN
+	1    7450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3050 7450 3200
+$Comp
+L power:+12V #PWR?
+U 1 1 5D36F51A
+P 7450 2450
+F 0 "#PWR?" H 7450 2300 50  0001 C CNN
+F 1 "+12V" H 7465 2623 50  0000 C CNN
+F 2 "" H 7450 2450 50  0001 C CNN
+F 3 "" H 7450 2450 50  0001 C CNN
+	1    7450 2450
+	1    0    0    -1  
+$EndComp
+Text HLabel 7500 2650 0    50   Input ~ 0
+Ch_5
+Text HLabel 7500 2750 0    50   Input ~ 0
+Ch_6
+Text HLabel 7500 2850 0    50   Input ~ 0
+Ch_7
+Text HLabel 7500 2950 0    50   Input ~ 0
+Ch_8
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5D36F5AE
+P 6700 2750
+F 0 "J?" H 6780 2742 50  0000 L CNN
+F 1 "Conn_01x06" H 6780 2651 50  0000 L CNN
+F 2 "" H 6700 2750 50  0001 C CNN
+F 3 "~" H 6700 2750 50  0001 C CNN
+	1    6700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2550 6450 2550
+Wire Wire Line
+	6450 2550 6450 2450
+Wire Wire Line
+	6500 3050 6450 3050
+$Comp
+L daisy:GND #PWR?
+U 1 1 5D36F5B8
+P 6450 3200
+F 0 "#PWR?" H 6450 3200 30  0001 C CNN
+F 1 "GND" H 6450 3130 30  0001 C CNN
+F 2 "" H 6450 3200 60  0000 C CNN
+F 3 "" H 6450 3200 60  0000 C CNN
+	1    6450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3050 6450 3200
+$Comp
+L power:+12V #PWR?
+U 1 1 5D36F5BF
+P 6450 2450
+F 0 "#PWR?" H 6450 2300 50  0001 C CNN
+F 1 "+12V" H 6465 2623 50  0000 C CNN
+F 2 "" H 6450 2450 50  0001 C CNN
+F 3 "" H 6450 2450 50  0001 C CNN
+	1    6450 2450
+	1    0    0    -1  
+$EndComp
+Text HLabel 6500 2650 0    50   Input ~ 0
+Ch_1
+Text HLabel 6500 2750 0    50   Input ~ 0
+Ch_2
+Text HLabel 6500 2850 0    50   Input ~ 0
+Ch_3
+Text HLabel 6500 2950 0    50   Input ~ 0
+Ch_4
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5D36F61B
+P 8750 2750
+F 0 "J?" H 8830 2742 50  0000 L CNN
+F 1 "Conn_01x06" H 8830 2651 50  0000 L CNN
+F 2 "" H 8750 2750 50  0001 C CNN
+F 3 "~" H 8750 2750 50  0001 C CNN
+	1    8750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2550 8500 2550
+Wire Wire Line
+	8500 2550 8500 2450
+Wire Wire Line
+	8550 3050 8500 3050
+$Comp
+L daisy:GND #PWR?
+U 1 1 5D36F625
+P 8500 3200
+F 0 "#PWR?" H 8500 3200 30  0001 C CNN
+F 1 "GND" H 8500 3130 30  0001 C CNN
+F 2 "" H 8500 3200 60  0000 C CNN
+F 3 "" H 8500 3200 60  0000 C CNN
+	1    8500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3050 8500 3200
+$Comp
+L power:+12V #PWR?
+U 1 1 5D36F62C
+P 8500 2450
+F 0 "#PWR?" H 8500 2300 50  0001 C CNN
+F 1 "+12V" H 8515 2623 50  0000 C CNN
+F 2 "" H 8500 2450 50  0001 C CNN
+F 3 "" H 8500 2450 50  0001 C CNN
+	1    8500 2450
+	1    0    0    -1  
+$EndComp
+Text HLabel 8550 2650 0    50   Input ~ 0
+Ch_9
+Text HLabel 8550 2750 0    50   Input ~ 0
+Ch_10
+Text HLabel 8550 2850 0    50   Input ~ 0
+Ch_11
+Text HLabel 8550 2950 0    50   Input ~ 0
+Ch_12
+$Comp
+L Connector:XLR5 J?
+U 1 1 5D36FCC4
+P 4000 2300
+F 0 "J?" H 4000 2665 50  0000 C CNN
+F 1 "XLR5" H 4000 2574 50  0000 C CNN
+F 2 "" H 4000 2300 50  0001 C CNN
+F 3 " ~" H 4000 2300 50  0001 C CNN
+	1    4000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2300 3550 2300
+Wire Wire Line
+	3700 2400 3550 2400
+Wire Wire Line
+	4000 2600 4000 2650
+Wire Wire Line
+	4000 2650 3550 2650
+Wire Wire Line
+	4300 2300 4650 2300
+Wire Wire Line
+	4650 2300 4650 2000
+Wire Wire Line
+	4300 2400 4650 2400
+$Comp
+L daisy:GND #PWR?
+U 1 1 5D37030E
+P 4650 2700
+F 0 "#PWR?" H 4650 2700 30  0001 C CNN
+F 1 "GND" H 4650 2630 30  0001 C CNN
+F 2 "" H 4650 2700 60  0000 C CNN
+F 3 "" H 4650 2700 60  0000 C CNN
+	1    4650 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2400 4650 2700
+$Comp
+L power:VCC #PWR?
+U 1 1 5D37054E
+P 4650 2000
+F 0 "#PWR?" H 4650 1850 50  0001 C CNN
+F 1 "VCC" H 4667 2173 50  0000 C CNN
+F 2 "" H 4650 2000 50  0001 C CNN
+F 3 "" H 4650 2000 50  0001 C CNN
+	1    4650 2000
+	1    0    0    -1  
+$EndComp
+Text HLabel 3550 2300 0    50   Input ~ 0
+DI
+Text HLabel 3550 2400 0    50   Input ~ 0
+RO
+Text HLabel 3550 2650 0    50   Input ~ 0
+PPS
+$EndSCHEMATC
